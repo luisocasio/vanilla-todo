@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap");
+html,
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  background-color: #ff006e;
+  color: #fff;
+  min-height: 100vh;
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.todo-input {
+  width: 100%;
+  border: 1px solid #000;
+  border-radius: 0.25rem;
+  font-size: 1rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: #333;
+  background-color: #fff;
+  margin-bottom: 1rem;
+}
+
+.add-todo-button {
+  background-color: #00bcd4;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.todo-list {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.todo-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #fff;
+  margin-top: 1rem;
+  background-color: #8338ec;
+  border-radius: 5px;
+}
+
+.checkbox {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: #fff;
+  border: 1px solid #333;
+  margin-right: 1em;
+}
+
+.todo-item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  color: #fff;
+}
+
+.delete-button {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: #fff;
+  border: 1px solid #333;
+  margin-right: 1em;
+}

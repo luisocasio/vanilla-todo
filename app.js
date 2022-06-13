@@ -93,6 +93,7 @@ addTodoButton.addEventListener("click", function (event) {
       todoWrapper.appendChild(deleteButton);
       deleteButton.addEventListener("click", function (event) {
         event.preventDefault();
+        todoWrapper.remove();
         // I left off here
       });
 
